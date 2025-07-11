@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang='es'>
+{% extends "core/base_doc.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block content %}
+{{ form.media }}            {# Adds date-picker required JS and CSS #}
+{% load bootstrap4 %}       {# import bootstrap4/bootstrap3 #}
+{% bootstrap_css %}         {# Embed Bootstrap CSS #}
+{% bootstrap_javascript jquery='full' %}  {# Embed Bootstrap JS+jQuery #}
+
+
+<!DOCTYPE html>
+<html lang='es'>
+
+{% load static %}
+
+<style>
+    body{
+       background-color: aquamarine;
+    }
+    label{color: black;
+        font-size: medium;
+        font-weight: 500;
+    }
+    #id_descripcion{
+        width:45vh;
+        height:4vh;
+    }
+    .container-doc{
+        display:flex;
+        align-content: center;
+        background-color: rgb(250, 253, 252);
+        border-color:rgb(33, 33, 163) ;
+        border-style: groove;
+        width:90%;
+        height:300px;
+    }
+    form{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #056636;
+    color: white;
+    width: 107vh;
+    }
+    select {
+     background: transparent;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 250px;
+  }
+    
+</style>
+
+{% block extra_js %}
+<script type="text/javascript">
+   
+   
+</script>
+
+{% endblock %}
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"/>
+    <link href="https://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet"/>
+    
+       
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    
+    <link href="//cdn.bootcss.com/bootstrap-datetimepicker/4.17.44/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.bootcss.com/moment.js/2.17.1/moment.min.js"></script>
+</head>
+
+<main role="main">
+    <div class="container">
+             
+            <div class="container-doc">
+                <div style="display: flex;flex-direction: column;">
+                    <div class="titulo">
+                        <h2>KARDEX</h2>
+                    </div>
+                    </br>
+                    <div>
+                        <form action="{% url 'kardex' %}" method="POST">
+                            {% csrf_token %}
+                            <div class="form-row">
+                                <div id="div-año" >
+                                    <label for="año">Año :</label>
+                                    <select id="año" style="background-color: white;border: 2px solid blue;transform:translate(3vh,0);">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row" style="display: flex;flex-direction: row;align-items: center;transform:translate(0vh,3vh)">
+                                <div id="div-bodegas">
+                                    <label for="bodegas">Bodega:</label>
+                                    <select id="bodegas" style="background-color: white;border: 2px solid blue">
+                                    </select>
+                                </div>
+                            </div>        
+                            <div class="form-group" style="transform:translate(2vh,8vh)">
+                                <div class="buttons">
+                                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                                    <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'menu_inventarios' %}" value="salir" >Salir</a>
+                                </div>
+                            </div>            
+                        </form>  
+                    </div>
+                </div>    
+            </div>
+            
+    </div>
+</main>
+
+{% block javascript %}
+<script>
+  
+  jQuery(document).ready(function() {
+    $.ajax({
+    url: "{% url 'ajax_bodegas' %}",
+    data: {'id':0 },
+    method: "GET",
+    Type: 'json',
+    success:function(data) {
+    var trHTML = '';
+    document.getElementById("bodegas").innerHTML='';
+    for (var i = 0; i < data.length; i++) {
+    const id =  {id: data[i].id};
+    const descripcion =  data[i].descripcion;
+    trHTML = `<option value=${data[i].id} >${descripcion}</option>`;
+    $("#bodegas").append(trHTML);
+    }
+    id = 999
+    descripcion='*'
+    trHTML = `<option value=${id} >${descripcion}</option>`;
+    $("#bodegas").append(trHTML);
+    document.getElementById("bodegas").value=999
+    
+  }
+  });
+  });
+
+  jQuery(document).ready(function() {
+    $.ajax({
+    url: "{% url 'ajax_anios' %}",
+    data: {'id':0 },
+    method: "GET",
+    Type: 'json',
+    success:function(data) {
+    var trHTML = '';
+    document.getElementById("año").innerHTML='';
+    for (var i = 0; i < data.length; i++) {
+    const id =  {id: data[i].id};
+    const anio =  data[i].anio;
+    trHTML = `<option value=${data[i].id} >${anio}</option>`;
+    $("#año").append(trHTML);
+    }
+    id = 999
+    descripcion='*'
+    trHTML = `<option value=${id} >${descripcion}</option>`;
+    $("#año").append(trHTML);
+    document.getElementById("año").value=999
+  }
+  });
+  });
+
+    $("#año").change(function () {
+    const anio = $(this).val();
+    $.ajax({
+    url: "{% url 'guarda_anio' %}",
+    data:{'anio':anio},
+    method: "GET",
+    dataType: 'json',
+    });
+    });
+
+    $("#bodegas").change(function () {
+    const bodega = $(this).val();
+    $.ajax({
+    url: "{% url 'guarda_bodega' %}",
+    data:{'bodega':bodega},
+    method: "GET",
+    dataType: 'json',
+    });
+    });
+
+</script>
+
+{% endblock %}
+{% endblock %}

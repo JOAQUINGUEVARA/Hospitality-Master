@@ -1,0 +1,2841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-29 14:02+0400\n"
+"PO-Revision-Date: 2018-08-29 14:02+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: popup-builder-plugin\n"
+"X-Poedit-SearchPath-1: popup-builder-adblock\n"
+"X-Poedit-SearchPath-2: popup-builder-analytics\n"
+"X-Poedit-SearchPath-3: popup-builder-exit-intent\n"
+"X-Poedit-SearchPath-4: popup-builder-mailchimp\n"
+"X-Poedit-SearchPath-5: popup-builder-aweber\n"
+
+#: popup-builder-adblock/PopupBuilderAdBlock.php:18
+msgid "You already have AdBlock extension. Please, remove this one"
+msgstr ""
+
+#: popup-builder-adblock/com/classes/Actions.php:24
+#: popup-builder-plugin/com/config/dataConfig.php:614
+msgid "Delay"
+msgstr ""
+
+#: popup-builder-adblock/com/classes/Actions.php:33
+#: popup-builder-plugin/com/config/dataConfig.php:478
+#: popup-builder-plugin/com/config/dataConfig.php:858
+msgid "AdBlock"
+msgstr ""
+
+#: popup-builder-adblock/com/classes/AdBlockMain.php:56
+#: popup-builder-mailchimp/com/classes/Mailchimp.php:63
+msgid ""
+"To enable Popup Builder Ad Block extension you need to activate Popup "
+"Builder plugin"
+msgstr ""
+
+#: popup-builder-adblock/com/classes/AdBlockMain.php:71
+msgid "Popup Builder AdBlock"
+msgstr ""
+
+#: popup-builder-adblock/com/classes/AdBlockMain.php:73
+msgid "Popup Builder AdBlock License"
+msgstr ""
+
+#: popup-builder-analytics/PopupBuilderAnalytics.php:18
+msgid "You already have Analytics extension. Please, remove this one."
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Actions.php:19
+#: popup-builder-plugin/com/config/dataConfig.php:484
+#: popup-builder-plugin/com/config/dataConfig.php:862
+msgid "Analytics"
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Ajax.php:124
+msgid "Popup Name"
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Ajax.php:125
+msgid "Count"
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Ajax.php:131
+msgid "No Analytics Data"
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Analytics.php:63
+msgid ""
+"To enable Popup Builder Analytics extension you need to activate Popup "
+"Builder plugin"
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Analytics.php:79
+msgid "Popup Builder Analytics"
+msgstr ""
+
+#: popup-builder-analytics/com/classes/Analytics.php:81
+msgid "Popup Builder Analytics License"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:47
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:478
+msgid "On load"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:48
+msgid "On scroll"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:49
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:479
+msgid "On click"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:50
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:480
+msgid "On hover"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:51
+msgid "On inactivity"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:52
+msgid "On close"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:53
+msgid "Inside popup click"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:54
+msgid "Confirm class"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:55
+msgid "Iframe class"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:56
+msgid "Shortcode on load"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:57
+msgid "Subscription success"
+msgstr ""
+
+#: popup-builder-analytics/com/config/config.php:58
+msgid "Contact success"
+msgstr ""
+
+#: popup-builder-analytics/com/helpers/DefaultOptionsData.php:11
+msgid "Today"
+msgstr ""
+
+#: popup-builder-analytics/com/helpers/DefaultOptionsData.php:12
+msgid "Yesterday"
+msgstr ""
+
+#: popup-builder-analytics/com/helpers/DefaultOptionsData.php:13
+msgid "Last 7 Days"
+msgstr ""
+
+#: popup-builder-analytics/com/helpers/DefaultOptionsData.php:14
+msgid "Last 30 Days"
+msgstr ""
+
+#: popup-builder-analytics/public/views/analytics.php:22
+msgid "Analytics Settings"
+msgstr ""
+
+#: popup-builder-analytics/public/views/analytics.php:27
+msgid "Date Range"
+msgstr ""
+
+#: popup-builder-analytics/public/views/analytics.php:31
+msgid "Popups"
+msgstr ""
+
+#: popup-builder-analytics/public/views/analytics.php:37
+msgid "Events"
+msgstr ""
+
+#: popup-builder-aweber/PopupBuilderAWeber.php:17
+msgid "You already have AWeber extension. Please, remove this one"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/AWeber.php:61
+msgid ""
+"To enable Popup Builder AWeber extension you need to activate Popup Builder "
+"plugin"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/AWeber.php:76
+msgid "Popup Builder AWeber"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/AWeber.php:78
+msgid "Popup Builder AWeber License"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/AWeberApi.php:462
+msgid "Successfully subscribed"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/Actions.php:19
+#: popup-builder-aweber/com/classes/Filters.php:103
+#: popup-builder-plugin/com/config/dataConfig.php:502
+#: popup-builder-plugin/com/config/dataConfig.php:874
+msgid "AWeber"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/AweberPopup.php:77
+msgid "AWeber Popup Main Options"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/AweberPopup.php:85
+msgid "Popup Builder AWeber extension requires authentication."
+msgstr ""
+
+#: popup-builder-aweber/com/classes/Filters.php:73
+msgid "Unable to send"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/Filters.php:75
+msgid "A user with this email address has already subscribed"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/Filters.php:76
+#: popup-builder-mailchimp/com/classes/Filters.php:88
+#: popup-builder-plugin/public/views/jsVariableView.php:30
+#: popup-builder-plugin/public/views/jsVariableView.php:48
+msgid "This field is required"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/Filters.php:77
+msgid "Invalid email"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/Filters.php:78
+#: popup-builder-mailchimp/com/classes/Ajax.php:94
+#: popup-builder-mailchimp/com/classes/Filters.php:98
+msgid "You have successfully subscribed to our mail list"
+msgstr ""
+
+#: popup-builder-aweber/com/classes/PopupBuilderAWeberExtension.php:32
+msgid "Are you sure you want to disconnect your AWeber account?"
+msgstr ""
+
+#: popup-builder-aweber/com/helpers/DefaultOptionsData.php:33
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:53
+#: popup-builder-mailchimp/public/views/mainView.php:342
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:507
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:572
+#: popup-builder-plugin/public/views/options/contact.php:437
+#: popup-builder-plugin/public/views/options/subscription.php:334
+msgid "Success message"
+msgstr ""
+
+#: popup-builder-aweber/com/helpers/DefaultOptionsData.php:46
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:65
+#: popup-builder-plugin/com/config/dataConfig.php:540
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:519
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:584
+msgid "Redirect to url"
+msgstr ""
+
+#: popup-builder-aweber/com/helpers/DefaultOptionsData.php:59
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:77
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:531
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:596
+msgid "Open popup"
+msgstr ""
+
+#: popup-builder-aweber/com/helpers/DefaultOptionsData.php:71
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:88
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:542
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:607
+msgid "Hide popup"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:9
+msgid "AWeber Settings"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:20
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:20
+msgid "API Settings"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:25
+#: popup-builder-aweber/public/views/mainView.php:38
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:31
+#: popup-builder-mailchimp/public/views/mainView.php:22
+#: popup-builder-plugin/public/views/license.php:48
+msgid "Status"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:29
+#: popup-builder-aweber/public/views/mainView.php:42
+msgid "Not Connected"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:31
+#: popup-builder-aweber/public/views/mainView.php:44
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:37
+#: popup-builder-mailchimp/public/views/mainView.php:28
+msgid "Connected"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:46
+msgid "Connect Account"
+msgstr ""
+
+#: popup-builder-aweber/public/views/aweberSettings.php:60
+msgid "Disconnect"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:51
+#: popup-builder-aweber/public/views/mainView.php:60
+#: popup-builder-mailchimp/public/views/mainView.php:34
+msgid "Your lists"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:54
+msgid "Authenticate AWeber account"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:71
+msgid "Sign up forms"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:82
+msgid "Unexpected error messages"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:91
+#: popup-builder-aweber/public/views/mainView.php:141
+#: popup-builder-plugin/public/views/optionsView.php:43
+msgid "Text"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:101
+msgid "Already subscribed message"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:110
+msgid "Validation messages"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:115
+#: popup-builder-mailchimp/public/views/mainView.php:121
+msgid "Required message"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:123
+#: popup-builder-plugin/public/views/options/subscription.php:315
+msgid "Invalid email message"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:131
+#: popup-builder-mailchimp/public/views/mainView.php:330
+#: popup-builder-plugin/public/views/options/subscription.php:324
+msgid "After successful subscription"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:151
+#: popup-builder-plugin/com/config/dataConfig.php:589
+#: popup-builder-plugin/public/views/options/social.php:23
+#: popup-builder-plugin/public/views/optionsView.php:29
+msgid "URL"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:159
+#: popup-builder-mailchimp/public/views/mainView.php:356
+#: popup-builder-plugin/public/views/options/contact.php:451
+#: popup-builder-plugin/public/views/options/subscription.php:348
+#: popup-builder-plugin/public/views/optionsView.php:35
+msgid "Redirect to new tab"
+msgstr ""
+
+#: popup-builder-aweber/public/views/mainView.php:169
+#: popup-builder-mailchimp/public/views/mainView.php:364
+#: popup-builder-plugin/com/config/dataConfig.php:602
+#: popup-builder-plugin/public/views/mediaButton.php:21
+#: popup-builder-plugin/public/views/options/contact.php:460
+#: popup-builder-plugin/public/views/options/subscription.php:357
+msgid "Select popup"
+msgstr ""
+
+#: popup-builder-exit-intent/PopupBuilderExitIntent.php:18
+msgid "You already have Exit Intent extension. Please, remove this one."
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:28
+msgid "Detect exit only from top bar"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:42
+#: popup-builder-plugin/public/views/main/restriction.php:99
+msgid "Page level cookie saving"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:43
+msgid ""
+"If this option is checked the exit intent will be saved for the current "
+"page. Otherwise, the exit intent will refer site wide, and the popup will be "
+"shown for specific times on each page selected."
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:57
+msgid "Expiry time"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:62
+msgid "day(s)"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:71
+#: popup-builder-plugin/public/views/popupDesignView.php:193
+msgid "Mode"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:72
+msgid "Select the Exit Intent mode"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/Actions.php:92
+#: popup-builder-plugin/com/config/dataConfig.php:866
+msgid "Exit intent"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/ExitIntent.php:56
+msgid ""
+"To enable Popup Builder Exit Intent extension you need to activate Popup "
+"Builder plugin"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/ExitIntent.php:71
+msgid "Popup Builder Exit intent"
+msgstr ""
+
+#: popup-builder-exit-intent/com/classes/ExitIntent.php:73
+msgid "Popup Builder Exit Intent License"
+msgstr ""
+
+#: popup-builder-exit-intent/com/helpers/DefaultOptionsData.php:11
+msgid "Soft mode"
+msgstr ""
+
+#: popup-builder-exit-intent/com/helpers/DefaultOptionsData.php:12
+msgid "Aggressive mode"
+msgstr ""
+
+#: popup-builder-exit-intent/com/helpers/DefaultOptionsData.php:13
+msgid "Soft and Aggressive modes"
+msgstr ""
+
+#: popup-builder-exit-intent/com/helpers/DefaultOptionsData.php:14
+msgid "Aggressive without popup"
+msgstr ""
+
+#: popup-builder-mailchimp/PopupBuilderMailchimp.php:18
+msgid "You already have Mailchimp extension. Please, remove this one"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Actions.php:20
+#: popup-builder-mailchimp/com/classes/Filters.php:108
+#: popup-builder-plugin/com/config/dataConfig.php:496
+#: popup-builder-plugin/com/config/dataConfig.php:870
+msgid "Mailchimp"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Ajax.php:91
+msgid ""
+"Almost finished... We need to confirm your email address. To complete the "
+"subscription process, please click the link in the email we just sent you"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Filters.php:87
+msgid "indicates required"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Filters.php:89
+msgid "Please enter valid email"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Filters.php:90
+msgid "Email Address"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Filters.php:91
+msgid "Too many subscribe attempts for this email address"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Filters.php:94
+#: popup-builder-plugin/com/config/dataConfig.php:758
+msgid "Subscribe"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Mailchimp.php:78
+msgid "Popup Builder Mailchimp"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/Mailchimp.php:80
+msgid "Popup Builder Mailchimp License"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/MailchimpPopup.php:43
+msgid "Please wait"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/MailchimpPopup.php:64
+msgid "Mailchimp Main Options"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/MailchimpPopup.php:86
+msgid "Popup Builder Mailchimp extension requires authentication."
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/api/MailchimpApi.php:546
+msgid "Address Line 2"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/api/MailchimpApi.php:550
+msgid "City"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/api/MailchimpApi.php:555
+msgid "State/Province/Region"
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/api/MailchimpApi.php:560
+msgid "Postal / Zip Code "
+msgstr ""
+
+#: popup-builder-mailchimp/com/classes/api/MailchimpApi.php:565
+msgid "Country"
+msgstr ""
+
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:18
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:24
+msgid "Left"
+msgstr ""
+
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:19
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:25
+msgid "Center"
+msgstr ""
+
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:20
+#: popup-builder-mailchimp/com/helpers/DefaultOptionsData.php:26
+msgid "Right"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:9
+msgid "Mailchimp Settings"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:35
+#: popup-builder-mailchimp/public/views/mainView.php:26
+msgid "Not connected"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:43
+msgid "API Key"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:50
+msgid "Show"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:53
+msgid "The API key for connecting with your Mailchimp account"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:53
+msgid "Get your API key here"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mailchimpSettings.php:58
+#: popup-builder-plugin/public/views/settings.php:52
+msgid "Save Changes"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:39
+msgid "Setup your Mailchimp Api key"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:42
+msgid "You don't have any lists yet. Please create a list first"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:51
+msgid "General settings"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:57
+msgid "Enable double opt-in"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:63
+msgid ""
+"With single opt-in, new subscribers fill out a signup form and are "
+"immediately added to a mailing list, even if their address is invalid or "
+"contains a typo. Single opt-in can clog your list with bad addresses, and "
+"possibly generate spam complaints from subscribers who don’t remember "
+"signing up"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:69
+msgid "Show only required fields"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:77
+msgid "Enable asterisk label"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:86
+msgid "Asterisk title"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:95
+msgid "Asterisk label"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:105
+msgid "Form alignment"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:113
+msgid "Label alignment"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:129
+msgid "Email message"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:137
+msgid "Email label"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:145
+#: popup-builder-plugin/public/views/options/subscription.php:307
+msgid "Error message"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:153
+#: popup-builder-plugin/public/views/options/contact.php:30
+msgid "Show form before content"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:159
+msgid "If this option is checked, the form will be displayed before the text"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:165
+msgid "General style"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:172
+#: popup-builder-mailchimp/public/views/mainView.php:320
+msgid "Label color"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:182
+msgid "Inputs style"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:189
+#: popup-builder-mailchimp/public/views/mainView.php:268
+#: popup-builder-plugin/public/views/closeSettingsView.php:109
+#: popup-builder-plugin/public/views/dimensionsView.php:20
+#: popup-builder-plugin/public/views/options/contact.php:216
+#: popup-builder-plugin/public/views/options/contact.php:287
+#: popup-builder-plugin/public/views/options/contact.php:366
+#: popup-builder-plugin/public/views/options/subscription.php:181
+#: popup-builder-plugin/public/views/options/subscription.php:255
+msgid "Width"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:197
+#: popup-builder-mailchimp/public/views/mainView.php:276
+#: popup-builder-plugin/public/views/closeSettingsView.php:120
+#: popup-builder-plugin/public/views/dimensionsView.php:25
+#: popup-builder-plugin/public/views/options/contact.php:224
+#: popup-builder-plugin/public/views/options/contact.php:295
+#: popup-builder-plugin/public/views/options/contact.php:374
+#: popup-builder-plugin/public/views/options/subscription.php:189
+#: popup-builder-plugin/public/views/options/subscription.php:263
+msgid "Height"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:205
+#: popup-builder-mailchimp/public/views/mainView.php:292
+msgid "Border radius"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:213
+#: popup-builder-mailchimp/public/views/mainView.php:284
+#: popup-builder-plugin/public/views/options/contact.php:232
+#: popup-builder-plugin/public/views/options/contact.php:303
+#: popup-builder-plugin/public/views/options/subscription.php:197
+msgid "Border width"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:221
+#: popup-builder-mailchimp/public/views/mainView.php:310
+#: popup-builder-plugin/public/views/options/contact.php:250
+#: popup-builder-plugin/public/views/options/contact.php:321
+#: popup-builder-plugin/public/views/options/subscription.php:215
+msgid "Border color"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:231
+#: popup-builder-mailchimp/public/views/mainView.php:300
+#: popup-builder-plugin/public/views/options/contact.php:240
+#: popup-builder-plugin/public/views/options/contact.php:311
+#: popup-builder-plugin/public/views/options/contact.php:398
+#: popup-builder-plugin/public/views/options/subscription.php:205
+#: popup-builder-plugin/public/views/options/subscription.php:287
+msgid "Background color"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:241
+#: popup-builder-plugin/public/views/options/contact.php:260
+#: popup-builder-plugin/public/views/options/contact.php:331
+#: popup-builder-plugin/public/views/options/contact.php:408
+#: popup-builder-plugin/public/views/options/subscription.php:225
+#: popup-builder-plugin/public/views/options/subscription.php:297
+msgid "Text color"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:251
+#: popup-builder-plugin/public/views/options/contact.php:361
+msgid "Submit button style"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:260
+msgid "Button title"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:350
+#: popup-builder-plugin/public/views/options/contact.php:445
+#: popup-builder-plugin/public/views/options/subscription.php:342
+msgid "Redirect URL"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:373
+msgid "Close popup if user already subscribed"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:383
+msgid "Live Preview"
+msgstr ""
+
+#: popup-builder-mailchimp/public/views/mainView.php:389
+msgid "LOADING"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Actions.php:341
+msgid "Once Every Minute"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Actions.php:731
+msgid "(no title) (clone)"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Actions.php:734
+msgid "(clone)"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Actions.php:902
+msgid "Popup updated."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Actions.php:906
+msgid "Popup published."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:210
+msgid "New message from "
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:210
+msgid " popup by Popup Builder"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:211
+msgid ""
+"Hi admin. One of your visitors has contacted you. You can find the details "
+"below:"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:213
+#: popup-builder-plugin/public/views/options/contact.php:107
+msgid "Name"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:216
+#: popup-builder-plugin/public/views/options/contact.php:133
+msgid "Subject"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:220
+#: popup-builder-plugin/com/config/dataConfig.php:825
+#: popup-builder-plugin/public/views/options/social.php:92
+msgid "E-mail"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Ajax.php:221
+msgid "Message"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/ConditionCreator.php:71
+msgid "OR"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/ConditionCreator.php:176
+msgid " "
+msgstr ""
+
+#: popup-builder-plugin/com/classes/ConditionCreator.php:394
+msgid "No Data"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/ConditionCreator.php:423
+#: popup-builder-plugin/public/views/jsVariableView.php:57
+#: popup-builder-plugin/public/views/mediaButton.php:42
+#: popup-builder-plugin/public/views/subscribers.php:101
+msgid "Cancel"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/ConditionCreator.php:424
+msgid "Save"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Filters.php:187
+msgid "Views"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Filters.php:188
+msgid "Enabled (show popup)"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Filters.php:189
+#: popup-builder-plugin/public/views/optionsView.php:157
+msgid "Type"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Filters.php:190
+msgid "Shortcode"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Installer.php:283
+msgid "Popup Builder"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Installer.php:285
+msgid "Popup Builder License"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/MediaButton.php:55
+msgid "Insert custom JS variable"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/MediaButton.php:78
+msgid "Insert popup"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:62
+msgid "Description."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:93
+#: popup-builder-plugin/public/views/popupTypes.php:14
+#: popup-builder-plugin/public/views/popupTypes.php:25
+msgid "Add New Popup"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:94
+msgid "New Popup"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:95
+msgid "Edit Popup"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:96
+msgid "View Popup"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:97
+msgid "All Popups"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:98
+msgid "Search Popups"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:99
+msgid "Parent Popups:"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:100
+msgid "No popups found."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:101
+msgid "No popups found in Trash."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:112
+msgid "Search Categories"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:113
+msgid "Popular Categories"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:114
+msgid "All Categories"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:117
+msgid "Edit Category"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:118
+msgid "Update Category"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:119
+msgid "Add New Category"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:120
+msgid "New Category Name"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:121
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:122
+msgid "Add or remove Categories"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:123
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:124
+msgid "No Categories found."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:125
+msgid "Categories"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:149
+#: popup-builder-plugin/com/classes/RegisterPostType.php:152
+msgid "Random popups"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:259
+#: popup-builder-plugin/com/classes/popups/SGPopup.php:1273
+msgid "Popup class does not exist"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:310
+#: popup-builder-plugin/com/classes/RegisterPostType.php:311
+msgid "Add New"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:319
+#: popup-builder-plugin/com/classes/RegisterPostType.php:320
+#: popup-builder-plugin/public/views/subscribers.php:30
+msgid "Subscribers"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:328
+#: popup-builder-plugin/com/classes/RegisterPostType.php:329
+msgid "Newsletter"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:337
+#: popup-builder-plugin/com/classes/RegisterPostType.php:338
+msgid "Settings"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:349
+msgid "Popup Display Rules"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:361
+msgid "Popup Events"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:375
+#: popup-builder-plugin/com/classes/RegisterPostType.php:455
+#: popup-builder-plugin/public/views/closeSettingsView.php:198
+#: popup-builder-plugin/public/views/optionsView.php:245
+#: popup-builder-plugin/public/views/popupDesignView.php:70
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:379
+msgid "Popup Conditions"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:391
+msgid "Behavior After Special Events"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:403
+msgid "Design"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:416
+msgid "Close Settings"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:429
+msgid "Dimensions"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:441
+msgid "Popup Options"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/RegisterPostType.php:459
+msgid "Popup other Conditions"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:92
+msgid "License"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:147
+#: popup-builder-plugin/com/classes/Updates.php:176
+#: popup-builder-plugin/com/classes/Updates.php:208
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:155
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:160
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:163
+msgid "Invalid license."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:167
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:170
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/Updates.php:173
+msgid "Invalid license key for current site."
+msgstr ""
+
+#: popup-builder-plugin/com/classes/dataTable/Subscribers.php:30
+#: popup-builder-plugin/com/config/dataConfig.php:743
+#: popup-builder-plugin/public/views/options/subscription.php:105
+#: popup-builder-plugin/public/views/subscribers.php:88
+msgid "First name"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/dataTable/Subscribers.php:31
+#: popup-builder-plugin/com/config/dataConfig.php:746
+#: popup-builder-plugin/public/views/options/subscription.php:136
+#: popup-builder-plugin/public/views/subscribers.php:93
+msgid "Last name"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/dataTable/Subscribers.php:32
+#: popup-builder-plugin/public/views/subscribers.php:78
+msgid "Email"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/dataTable/Subscribers.php:33
+#: popup-builder-plugin/com/libs/Table.php:246
+msgid "Date"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/dataTable/Subscribers.php:34
+msgid "Popup"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/popups/CountdownPopup.php:90
+msgid "Countdown Popup Main Options"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/popups/SubscriptionPopup.php:576
+msgid "no title"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/popups/VideoPopup.php:224
+msgid "Your video format is not supported"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/popups/VideoPopup.php:225
+msgid ""
+"Our Video popup supports the following video streams: YouTube, Vimeo & Daily "
+"Motion"
+msgstr ""
+
+#: popup-builder-plugin/com/classes/popups/VideoPopup.php:226
+msgid "Or, please, check if your inserted link is valid"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:115
+#: popup-builder-plugin/public/views/popupDesignView.php:165
+msgid "Image"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:116
+msgid "HTML"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:117
+#: popup-builder-plugin/public/views/options/social.php:128
+msgid "Facebook"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:118
+msgid "Iframe"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:119
+msgid "Video"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:120
+msgid "Restriction"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:121
+msgid "Countdown"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:122
+msgid "Social"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:123
+msgid "Subscription"
+msgstr ""
+
+#: popup-builder-plugin/com/config/config.php:124
+msgid "Contact form"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:33
+msgid "Select rule"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:34
+msgid "Everywhere"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:36
+msgid "All posts"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:37
+msgid "Selected posts"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:38
+msgid "Post type"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:39
+msgid "Post category"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:42
+msgid "All pages"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:43
+msgid "Selected pages"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:44
+msgid "Page type"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:45
+msgid "Page template"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:48
+msgid "All tags"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:49
+msgid "Selected tags"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:54
+#: popup-builder-plugin/com/config/dataConfig.php:370
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:1254
+msgid "Add"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:55
+#: popup-builder-plugin/com/config/dataConfig.php:371
+msgid "Delete"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:59
+#: popup-builder-plugin/com/config/dataConfig.php:375
+msgid "Is"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:60
+#: popup-builder-plugin/com/config/dataConfig.php:376
+msgid "Is not"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:92
+msgid "Specify where the popup should be shown on your site."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:104
+msgid "Allow or Disallow popup showing for the selected rule."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:117
+msgid "Select your specific posts where the popup should be shown."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:130
+msgid "Select the pages on your site where the specific popup will be shown."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:144
+msgid "Specify the post types on your site to show the popup."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:158
+msgid "Select the post categories on which the popup should be shown."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:172
+msgid "Specify the page types where the popup will be shown."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:186
+msgid "Select the page templates on which the popup will be shown."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:200
+msgid "Select the tags on your site for popup showing"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:238
+msgid "Set by CSS class"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:279
+msgid "Select when the popup should appear on the page."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:290
+#: popup-builder-plugin/com/config/dataConfig.php:333
+msgid "This is info"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:294
+msgid "default custom delay will be used"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:297
+msgid ""
+"Specify how long the popup appearance should be delayed after loading the "
+"page (in sec)."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:304
+msgid ""
+"Specify the part of the page, in percentages, where the popup should appear "
+"after scrolling."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:311
+msgid ""
+"Show the popup after some time of inactivity. The popup will appear if a "
+"user does nothing for some specific time mentioned."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:322
+msgid ""
+"If this option is enabled the same popup will open up after every X seconds "
+"you have defined (after closing it)."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:361
+msgid "Select role"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:363
+msgid "User status"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:364
+msgid "Countries"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:365
+msgid "Devices"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:384
+msgid "logged in"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:409
+msgid "Target visitors to show the popup by different conditions."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:420
+msgid "Allow or Disallow popup showing for the selected conditions."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:431
+msgid "Set up the popup to allow it for logged-in or logged-out users."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:443
+msgid "Select the countries for which the popup will be shown or hidden."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:455
+msgid "Select the device for which the popup will be available."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:490
+msgid "Exit Intent"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:532
+#: popup-builder-plugin/public/views/mediaButton.php:30
+msgid "Select event"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:533
+msgid "Special events"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:534
+msgid "Contact Form 7 submission"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:538
+msgid "Select behavior"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:539
+msgid "Behaviors"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:541
+msgid "Open another popup"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:542
+msgid "Close current popup"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:567
+msgid "Event"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:568
+msgid "Select the special event you want to catch."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:578
+msgid "Behavior"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:579
+msgid "Select what should happen after the special event."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:590
+msgid "Enter the URL of the page should be redirected to."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:603
+msgid "Select the popup that should be opened."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:615
+msgid "After how many seconds the popup should close."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:698
+msgid "Invalid URL."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:699
+msgid "This url may not work, as it is HTTP and you are running HTTPS."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:700
+msgid "This url may not work, as it doesn't allow embedding in iframes."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:710
+msgid "Invalid URL"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:711
+msgid "This video URL is not supported"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:728
+msgid "Yes"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:730
+msgid "No"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:741
+msgid "Email *"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:748
+#: popup-builder-plugin/com/config/dataConfig.php:786
+msgid "This field is required."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:759
+#: popup-builder-plugin/com/config/dataConfig.php:803
+msgid "Please wait..."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:762
+msgid "There was an error while trying to send your request. Please try again"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:763
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:765
+msgid "You have successfully subscribed to the newsletter"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:769
+#: popup-builder-plugin/com/config/dataConfig.php:815
+msgid "Accept Terms"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:770
+#: popup-builder-plugin/com/config/dataConfig.php:816
+msgid ""
+" will use the information you provide on this form to be in touch with you "
+"and to provide updates and marketing."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:777
+msgid "Name *"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:780
+msgid "Subject *"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:782
+msgid "E-mail *"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:783
+msgid "Message *"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:785
+msgid "Unable to send."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:787
+msgid "Please enter a valid email."
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:802
+msgid "Submit"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:811
+msgid "Your message has been successfully sent"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:827
+#: popup-builder-plugin/com/config/dataConfig.php:829
+msgid "Share"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:831
+msgid "+1"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:833
+msgid "Tweet"
+msgstr ""
+
+#: popup-builder-plugin/com/config/dataConfig.php:835
+msgid "Pin it"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/AdminHelper.php:692
+msgid "Popup Builder plugin has been successfully updated"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/AdminHelper.php:693
+msgid "The following extensions need to be updated manually"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/AdminHelper.php:701
+#: popup-builder-plugin/com/helpers/AdminHelper.php:757
+msgid "Don't show again"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:111
+msgid "Select "
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:167
+msgid "Home Page"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:168
+msgid "Posts Page"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:169
+msgid "Search Pages"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:170
+msgid "404 Pages"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:179
+msgid "Desktop"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:180
+msgid "Tablet"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:181
+msgid "Mobile"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:182
+msgid "Bots"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:190
+msgid "Default Template"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:245
+msgid "Close Popup"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:256
+msgid "Redirect"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:267
+msgid "Copy to clipboard"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:297
+msgid "Responsive mode"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:298
+msgid ""
+"The sizes of the popup will be counted automatically, according to the "
+"content size of the popup. You can select the size in percentages, with this "
+"mode, to specify the size on the screen"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:310
+msgid "Custom mode"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:311
+msgid ""
+"Add your own custom dimensions for the popup to get the exact sizing for "
+"your popup"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:363
+msgid "Auto"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:377
+msgid "top-left"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:378
+msgid "top-right"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:379
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:384
+msgid "bottom-left"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:380
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:385
+msgid "bottom-right"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:417
+msgid "Monday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:418
+msgid "Tuesday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:419
+msgid "Wednesday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:420
+msgid "Thursday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:421
+msgid "Friday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:422
+msgid "Saturday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:423
+msgid "Sunday"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:427
+msgid "Both"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:428
+msgid "Horizontal"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:429
+msgid "Vertical"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:430
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:645
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:653
+msgid "None"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:431
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:477
+msgid "Inherit"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:458
+msgid "Use active URL"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:470
+msgid "Share URL"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:614
+msgid "Flat"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:615
+msgid "Classic"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:616
+msgid "Minima"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:617
+msgid "Plain"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:632
+msgid "True"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:633
+msgid "False"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:634
+msgid "Inside"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:638
+msgid "Standard"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:639
+msgid "Box with count"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:640
+msgid "Button with count"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:641
+msgid "Button"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:646
+msgid "Cover"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:647
+msgid "Fit"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:648
+msgid "Contain"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:649
+msgid "Repeat"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:654
+msgid "Flip"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:655
+msgid "Shake"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:656
+msgid "Wobble"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:657
+msgid "Swing"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:658
+msgid "Flash"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:659
+msgid "Bounce"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:660
+msgid "BounceInRight"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:661
+msgid "BounceIn"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:662
+msgid "Pulse"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:663
+msgid "RubberBand"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:664
+msgid "Tada"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:665
+msgid "SlideInUp"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:666
+msgid "Jello"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:667
+msgid "RotateIn"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:668
+msgid "FadeIn"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:1252
+msgid "Only image files supported"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:1253
+msgid "Are you sure?"
+msgstr ""
+
+#: popup-builder-plugin/com/helpers/ConfigDataHelper.php:1255
+msgid "Only audio files supported (e.g.: mp3, wav, m4a, ogg)"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/EDD_SL_Plugin_Updater.php:149
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: popup-builder-plugin/com/libs/EDD_SL_Plugin_Updater.php:157
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: popup-builder-plugin/com/libs/EDD_SL_Plugin_Updater.php:304
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/EDD_SL_Plugin_Updater.php:304
+msgid "Error"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:144
+msgid "List View"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:145
+msgid "Excerpt View"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:314
+msgid "No items found."
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:439
+msgid "Select bulk action"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:441
+msgid "Bulk Actions"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:451
+msgid "Apply"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:501
+#: popup-builder-plugin/com/libs/ListTable.php:1262
+msgid "Show more details"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:556
+#: popup-builder-plugin/com/libs/Table.php:231
+msgid "Filter by date"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:558
+msgid "All dates"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:571
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:630
+#: popup-builder-plugin/com/libs/ListTable.php:642
+msgid "No comments"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:642
+msgid "No approved comments"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:758
+msgid "First page"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:768
+msgid "Previous page"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:775
+#: popup-builder-plugin/com/libs/ListTable.php:778
+msgid "Current Page"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:791
+msgid "Next page"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:801
+msgid "Last page"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/ListTable.php:1011
+msgid "Select All"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/Table.php:214
+msgid "Filter by popup"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/Table.php:218
+msgid "All"
+msgstr ""
+
+#: popup-builder-plugin/com/libs/Table.php:251
+msgid "Filter"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:35
+msgid "Dismiss on \"esc\" key"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:41
+msgid "The popup will close if the \"Esc\" key of your keyboard is clicked."
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:49
+msgid "Show \"close\" button"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:55
+msgid ""
+"Uncheck this option if you don't want to show a \"close\" button on your "
+"popup."
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:62
+msgid "Button delay"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:70
+msgid ""
+"Specify the time (in seconds) after which the close button will appear. The "
+"close button will be shown by default without any delay if no time is "
+"specified"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:76
+msgid "Button position"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:84
+msgid "Button image"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:99
+#: popup-builder-plugin/public/views/popupDesignView.php:183
+msgid "Change image"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:102
+#: popup-builder-plugin/public/views/popupDesignView.php:186
+msgid "Remove"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:133
+msgid "Popup border color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:143
+msgid "Popup border radius"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:156
+msgid "Button text"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:160
+msgid "Close"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:170
+msgid "Dismiss on overlay click"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:176
+msgid "The popup will close when clicked on the overlay of the popup"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:183
+msgid "Disable popup closing"
+msgstr ""
+
+#: popup-builder-plugin/public/views/closeSettingsView.php:193
+msgid ""
+"The users will not be able to close the popup, if this option is checked"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:21
+#: popup-builder-plugin/public/views/dimensionsView.php:27
+#: popup-builder-plugin/public/views/dimensionsView.php:38
+#: popup-builder-plugin/public/views/dimensionsView.php:42
+#: popup-builder-plugin/public/views/dimensionsView.php:46
+#: popup-builder-plugin/public/views/dimensionsView.php:50
+msgid "Ex: 100, 100px or 100%"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:21
+#: popup-builder-plugin/public/views/dimensionsView.php:27
+#: popup-builder-plugin/public/views/dimensionsView.php:38
+#: popup-builder-plugin/public/views/dimensionsView.php:42
+#: popup-builder-plugin/public/views/dimensionsView.php:46
+#: popup-builder-plugin/public/views/dimensionsView.php:50
+msgid "It must be number  + px or %"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:32
+msgid "Size"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:37
+msgid "Max width"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:41
+msgid "Max height"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:45
+msgid "Min width"
+msgstr ""
+
+#: popup-builder-plugin/public/views/dimensionsView.php:49
+msgid "Min height"
+msgstr ""
+
+#: popup-builder-plugin/public/views/jsVariableView.php:9
+msgid "Insert JS variable inside the popup"
+msgstr ""
+
+#: popup-builder-plugin/public/views/jsVariableView.php:18
+msgid "Selector"
+msgstr ""
+
+#: popup-builder-plugin/public/views/jsVariableView.php:24
+msgid "Ex. #myselector or .myselector"
+msgstr ""
+
+#: popup-builder-plugin/public/views/jsVariableView.php:36
+msgid "Attribute"
+msgstr ""
+
+#: popup-builder-plugin/public/views/jsVariableView.php:42
+msgid "Ex. value or data-name"
+msgstr ""
+
+#: popup-builder-plugin/public/views/jsVariableView.php:54
+#: popup-builder-plugin/public/views/mediaButton.php:39
+msgid "Insert"
+msgstr ""
+
+#: popup-builder-plugin/public/views/license.php:27
+msgid "License Key"
+msgstr ""
+
+#: popup-builder-plugin/public/views/license.php:36
+msgid "Deactivate"
+msgstr ""
+
+#: popup-builder-plugin/public/views/license.php:41
+msgid "Activate"
+msgstr ""
+
+#: popup-builder-plugin/public/views/license.php:52
+msgid "active"
+msgstr ""
+
+#: popup-builder-plugin/public/views/license.php:56
+msgid "not active"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:25
+msgid "Counter background color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:35
+msgid "Counter text color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:45
+msgid "Due date"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:53
+msgid "Countdown format"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:61
+msgid "Timezone"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:69
+msgid "Select language"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:77
+msgid "Show counter on the Top"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/countdown.php:85
+msgid "Close popup on timeout"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/iframe.php:6
+msgid "Enter iframe URL"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/image.php:2
+msgid "Please choose your picture"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/image.php:8
+#: popup-builder-plugin/public/views/popupDesignView.php:177
+msgid "No image selected"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:10
+#: popup-builder-plugin/public/views/options/social.php:11
+msgid "Push to bottom"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:18
+msgid "\"Yes\" button"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:23
+#: popup-builder-plugin/public/views/main/restriction.php:116
+#: popup-builder-plugin/public/views/options/contact.php:88
+#: popup-builder-plugin/public/views/options/social.php:101
+#: popup-builder-plugin/public/views/options/social.php:119
+#: popup-builder-plugin/public/views/options/social.php:137
+#: popup-builder-plugin/public/views/options/social.php:155
+#: popup-builder-plugin/public/views/options/social.php:173
+#: popup-builder-plugin/public/views/options/social.php:191
+#: popup-builder-plugin/public/views/options/subscription.php:85
+msgid "Label"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:26
+msgid "e.g.: Yes"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:31
+#: popup-builder-plugin/public/views/main/restriction.php:124
+msgid "Button background color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:41
+#: popup-builder-plugin/public/views/main/restriction.php:134
+msgid "Button text color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:52
+#: popup-builder-plugin/public/views/main/restriction.php:145
+msgid "Button border color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:62
+#: popup-builder-plugin/public/views/main/restriction.php:155
+msgid "Button border width"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:74
+#: popup-builder-plugin/public/views/main/restriction.php:167
+msgid "Button radius"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:85
+msgid "Expiration time"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:93
+msgid ""
+"Estimate the count of the days after which the popup will be shown to the "
+"same user after they confirm with \"Yes\" button."
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:105
+msgid ""
+"If this option is checked the popup confirmation date will refer to the "
+"current page. Otherwise the popup will be shown for specific times on each "
+"page selected."
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:111
+msgid "\"No\" button"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:119
+msgid "e.g.: No"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:178
+msgid "Restriction URL"
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/restriction.php:186
+msgid ""
+"Add the URL to which the users will be redirected to, after selecting the "
+"\"No\" button."
+msgstr ""
+
+#: popup-builder-plugin/public/views/main/video.php:6
+msgid "Enter video URL"
+msgstr ""
+
+#: popup-builder-plugin/public/views/mainRateUsBanner.php:38
+msgid "Rate Us"
+msgstr ""
+
+#: popup-builder-plugin/public/views/mainRateUsBanner.php:42
+msgid "Submit Ticket"
+msgstr ""
+
+#: popup-builder-plugin/public/views/mainRateUsBanner.php:45
+msgid "Support"
+msgstr ""
+
+#: popup-builder-plugin/public/views/mainRateUsBanner.php:52
+msgid "FAQ"
+msgstr ""
+
+#: popup-builder-plugin/public/views/mainRateUsBanner.php:55
+msgid "Contact"
+msgstr ""
+
+#: popup-builder-plugin/public/views/mainRateUsBanner.php:65
+msgid "Don't show again."
+msgstr ""
+
+#: popup-builder-plugin/public/views/mediaButton.php:12
+msgid "Insert the [shortcode]"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:27
+msgid "Newsletter Settings"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:31
+msgid "You will receive an email notification after all emails are sent"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:35
+msgid "Choose the popup"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:43
+msgid "Select a popup"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:48
+msgid "Emails to send in one flow per 1 minute"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:56
+msgid "From email"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:64
+msgid "Please enter a valid email"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:69
+msgid "Email's subject"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:72
+msgid "Your subject here"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:77
+msgid "Enter newsletter email template below"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:102
+msgid "Send newsletter"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:119
+msgid "Newsletter Shortcodes"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:124
+msgid "[First name]"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:127
+msgid "Subscriber First name"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:132
+msgid "[Last name]"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:135
+msgid "Subscriber Last name"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:140
+msgid "[Blog name]"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:143
+msgid "Your blog name"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:148
+msgid "[User name]"
+msgstr ""
+
+#: popup-builder-plugin/public/views/newsletter.php:151
+msgid "Your user name"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:25
+msgid "General options"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:39
+#: popup-builder-plugin/public/views/options/subscription.php:26
+msgid "Form background options"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:44
+#: popup-builder-plugin/public/views/options/subscription.php:31
+msgid "Form background color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:54
+#: popup-builder-plugin/public/views/options/subscription.php:41
+msgid "Form background opacity"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:65
+#: popup-builder-plugin/public/views/options/subscription.php:52
+msgid "Form padding"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:79
+#: popup-builder-plugin/public/views/options/subscription.php:76
+msgid "Enable GDPR"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:96
+#: popup-builder-plugin/public/views/options/subscription.php:93
+msgid "Confirmation text"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:116
+#: popup-builder-plugin/public/views/options/contact.php:142
+msgid "placeholder"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:124
+#: popup-builder-plugin/public/views/options/contact.php:150
+msgid "required field"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:159
+#: popup-builder-plugin/public/views/options/subscription.php:66
+msgid "Email placeholder"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:167
+msgid "Message placeholder"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:177
+msgid "Receiver email"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:185
+msgid "Send error message"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:193
+#: popup-builder-plugin/public/views/options/subscription.php:165
+msgid "Required field message"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:201
+msgid "Invalid email field message"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:211
+msgid " Inputs' style"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:270
+#: popup-builder-plugin/public/views/options/contact.php:341
+#: popup-builder-plugin/public/views/options/subscription.php:235
+msgid "Placeholder color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:282
+msgid "Message style"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:351
+msgid "Resize"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:382
+#: popup-builder-plugin/public/views/options/subscription.php:271
+msgid "Title"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:390
+#: popup-builder-plugin/public/views/options/subscription.php:279
+msgid "Title (in progress)"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:418
+msgid "Hide popup for already contacted users"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:427
+msgid "After successful form submission"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/contact.php:468
+#: popup-builder-plugin/public/views/options/subscription.php:366
+msgid "Live preview"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/facebook.php:10
+msgid "Url"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/facebook.php:18
+msgid "Layout"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/facebook.php:26
+msgid "Don't show share button"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:26
+msgid "If empty, current URL will be used."
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:32
+msgid "Configuration of the buttons"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:37
+#: popup-builder-plugin/public/views/popupDesignView.php:38
+msgid "Theme"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:55
+msgid "Font size"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:63
+msgid "Show labels"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:71
+msgid "Show share count"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:79
+msgid "Use round buttons"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:87
+msgid "Share Buttons"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:110
+msgid "Twitter"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:146
+msgid "Google+"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:164
+msgid "LinkedIn"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/social.php:182
+msgid "Pinterest"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/subscription.php:114
+#: popup-builder-plugin/public/views/options/subscription.php:145
+msgid "Placeholder"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/subscription.php:122
+#: popup-builder-plugin/public/views/options/subscription.php:153
+msgid "Required field"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/subscription.php:176
+msgid "Inputs' style"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/subscription.php:250
+msgid "Submit button styles"
+msgstr ""
+
+#: popup-builder-plugin/public/views/options/video.php:6
+msgid "Autoplay"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:16
+msgid "Action on popup content click"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:49
+msgid "Close popup"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:60
+msgid "Popup showing limitation"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:66
+msgid "Estimate the popup showing frequency to the same user."
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:73
+msgid "Popup showing count"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:81
+msgid "Select how many times the popup will be shown for the same user."
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:87
+msgid "Popup showing expiry"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:95
+msgid ""
+"Select the count of the days after which the popup will be shown to the same "
+"user."
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:101
+msgid "Apply option on each page"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:107
+msgid ""
+"If this option is checked the popup showing limitation will be saved for the "
+"current page. Otherwise, the limitation will refer site wide, and the popup "
+"will be shown for specific times on each page selected.The previously "
+"specified count of days will be reset every time you check/uncheck this "
+"option."
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:116
+msgid "Popup opening sound"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:122
+msgid ""
+"If this option is enabled the popup will appear with a sound. The sound "
+"option is not available on mobile devices, as there are restrictions on "
+"sound auto-play options for mobile devices"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:139
+msgid "Change sound"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:142
+msgid "Reset"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:148
+msgid "Popup opening animation"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:168
+msgid "Speed"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:175
+#: popup-builder-plugin/public/views/optionsView.php:260
+msgid "Second(s)"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:183
+msgid "Popup location"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:209
+msgid "Disable page scrolling"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:215
+msgid ""
+"If this option is checked, the page won't scroll until the popup is open"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:222
+msgid "Enable content scrolling"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:228
+msgid ""
+"If the content is larger than the specified dimensions, then the content "
+"will be scrollable"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:234
+msgid "Auto close popup"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:253
+msgid "Auto close after"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:269
+msgid "Reopen after form submission"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:275
+msgid ""
+"If this option is enabled, the popup will reopen after the form submission"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:282
+msgid "Popup order"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:290
+msgid ""
+"Select the priority number for your popup to appear on the page, along with "
+"other popups. The popup with a lower order number will be behind the others "
+"with a higher order number."
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:296
+msgid "Custom event delay"
+msgstr ""
+
+#: popup-builder-plugin/public/views/optionsView.php:304
+msgid ""
+"You can add an opening delay for the popup, in seconds. This will refer to "
+"custom events, like:\n"
+"\t\t\t\t\t\t\t\t\tShortcodes, custom CSS classes, HTML attributes, or JS "
+"called custom events"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:18
+msgid "Schedule"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:24
+msgid ""
+"Select the day(s) of the week and estimate specific time during which the "
+"popup will regularly be shown."
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:31
+msgid "Every"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:45
+msgid "From"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:53
+msgid "To"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:68
+msgid "Show popup in date range"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:74
+msgid ""
+"Select a time period during which the popup will appear on your site. "
+"Specify the date and the hours for the start and end of popup showing."
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:81
+msgid "Start date"
+msgstr ""
+
+#: popup-builder-plugin/public/views/otherConditionsView.php:89
+msgid "End date"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:12
+msgid "Padding"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:18
+msgid "Add some space, in pixels, around your popup content."
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:24
+msgid "Popup z-index"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:32
+msgid ""
+"Increase or dicrease the value to set the priority of displaying the popup "
+"content in comparison of other elements on the page. The highest value of z-"
+"index is 2147483647."
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:55
+msgid "Enable popup overlay"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:65
+msgid "If this option is checked, the popup will appear with an overlay."
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:77
+msgid "Overlay custom css class"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:85
+msgid "Add a custom class to the overlay for additional customization."
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:91
+msgid "Change color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:101
+#: popup-builder-plugin/public/views/popupDesignView.php:153
+msgid "Opacity"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:115
+msgid "Content custom css class"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:123
+msgid "Add a custom class to the content for additional customization"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:129
+msgid "Background options"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:134
+msgid "Show background"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:143
+msgid "Color"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupDesignView.php:201
+msgid "Choose how the background image will be displayed with your content."
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupTypes.php:17
+msgid "Upgrade to PRO version"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupTypes.php:45
+msgid "PRO"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupTypes.php:77
+msgid "More Ideas?"
+msgstr ""
+
+#: popup-builder-plugin/public/views/popupTypes.php:89
+msgid "Extensions"
+msgstr ""
+
+#: popup-builder-plugin/public/views/settings.php:20
+msgid "General Settings"
+msgstr ""
+
+#: popup-builder-plugin/public/views/settings.php:26
+msgid "Delete popup data"
+msgstr ""
+
+#: popup-builder-plugin/public/views/settings.php:32
+msgid "Don't keep popups and their data after removing the plugin"
+msgstr ""
+
+#: popup-builder-plugin/public/views/settings.php:38
+msgid "User role to access the plugin"
+msgstr ""
+
+#: popup-builder-plugin/public/views/settings.php:46
+msgid ""
+"In spite of user roles the administrator always has access to the plugin"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:31
+msgid "Export"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:32
+msgid "Add new"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:36
+msgid "Delete subscriber(s)"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:51
+msgid "Select subscription(s):"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:62
+msgid "Error occurred: could not add subscriber."
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:73
+msgid "Subscription is not selected"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:83
+msgid "Invalid email address"
+msgstr ""
+
+#: popup-builder-plugin/public/views/subscribers.php:98
+msgid "Add to list"
+msgstr ""

@@ -1,0 +1,62 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Dashboard</h1>
+
+    <canvas id="PedidosValorChart" width="400" height="200"></canvas>
+    <canvas id="PedidosMesHabitacionChart" width="400" height="200"></canvas>
+
+    <script>
+        // Ejemplo: datos desde Django (puedes pasarlos como variables del contexto)
+        var total_valor_pedidos = {{ total_valor_pedidos }};
+        var total_cantidad_pedidos= {{ total_cantidad_pedidos }};
+        var total_por_mesa={{ total_por_mesa }}
+        var total_por_habitacion={{ total_por_habitacion }}
+
+        // Gráfica de Pedidos
+        var ctx = document.getElementById('PedidosValorChart').getContext('2d');
+        var ordenesChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Valor Pedidos', 'Cantidad Pedidos'],
+                datasets: [{
+                    data: [total_valor_pedidos, total_cantidad_pedidos],
+                    backgroundColor: ['#f39c12', '#27ae60']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom' }
+                }
+            }
+        });
+
+        // Gráfica de Recetas e Ingredientes
+        var ctx2 = document.getElementById('PedidosMesaHabitacionChart').getContext('2d');
+        var ingredientesChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Total por Mesa', 'Total por Habitacion'],
+                datasets: [{
+                    label: 'Cantidad',
+                    data: [total_por_mesa, total_por_habitacion],
+                    backgroundColor: ['#2980b9', '#c0392b']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

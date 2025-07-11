@@ -1,0 +1,61 @@
+{% extends "core/base_doc.html" %}
+{% load crispy_forms_tags %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<style>
+.container-doc{
+    background-color:rgb(236, 234, 234);
+    width:70%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top:100px;
+}
+main{
+    background:white;
+}
+
+h3{
+    font-weight: bold;
+}
+</style>
+<main role="main">
+    <div class="container-doc">
+        <div class="media d-flex align-items-center">
+        <img src="{% static 'img/logo_empresa.png' %}" heigt="200vh" width="400vw" class="mr-3 img-thumbnail shadow-sm">
+        </div>
+        <div class="row mt-3x">
+            <h3>{{ mensaje1 }}</h3>
+            <h3>{{ mensaje2 }}</h3>
+            <h3>{{ mensaje3 }}</h3>
+        </div>
+        <form action="" method="post" style="font-size: large;">{% csrf_token %}
+            <p></p>
+            <div style="display:flex;flex-direction:row;justify-content: space-between;">
+                <div>
+                {% if parametro == 1 %}      
+                <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'acumulado_item_inventario_list'  %}" value="salir" >Continuar</a>
+                {% endif %}
+                {% if parametro == 2 %}      
+                <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'menu_inventarios'  %}" value="salir" >Continuar</a>
+                {% endif %}
+                {% if parametro == 3 %}      
+                <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'inventario_fisico'  %}" value="salir" >Continuar</a>
+                {% endif %}
+                {% if parametro == 4 %}      
+                <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'menu_procesos_inventario'  %}" value="salir" >Continuar</a>
+                {% endif %}
+                {% if parametro == 5 %}      
+                <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'detalle_acumulado_item_inventario' id=idacumulado idbodega=idbodega  %}" value="salir" >Continuar</a>
+                {% endif %}
+                </div>
+            </div>    
+        </form>
+    </div>
+</main>
+
+{% endblock %}

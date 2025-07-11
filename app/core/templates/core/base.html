@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% block title %}{% endblock title %}   
+<title>|HOSPITALITY MASTER</title>
+
+<!-- Fuentes -->
+<!-- Estilos -->
+<link href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static '/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static '/css/main.css' %}" rel="stylesheet">
+
+<!-- Compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+
+<!--Let browser know website is optimized for mobile-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/bootstrap-responsive.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/matrix-style.css' %}" />
+<link rel="stylesheet" href="{% static 'css/matrix-media.css' %}" />
+<link rel="stylesheet" href="{% static 'css/font-awesome.css' %}"  />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<!---Sweet Alert 2 --->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="{% static 'utils/notificationswal.js' %}"></script>
+
+<style>
+html {
+        height: 100%;
+        width: 100%;
+}
+.subtitulo{
+    color: darkblue;
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;
+}
+.main-menu:hover,nav.main-menu.expanded {
+    width:250px;
+    overflow:visible;
+}
+.main-menu {
+    background: #303481;
+    border-right:1px solid #e5e5e5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width:260px;
+    #overflow:hidden;
+    -webkit-transition:width .05s linear;
+    transition:width .05s linear;
+    -webkit-transform:translateZ(0) scale(1,1);
+    z-index:1000;
+    margin-top: 2px;
+    margin-left: 50px;
+    height: 900px;
+}
+.main-menu>ul {
+    margin:7px 0;
+}
+
+.main-menu li {
+    position:relative;
+    display:block;
+    width:250px;
+    margin-top: 10px;
+}
+#sidebar{
+    width: 250px;
+}
+.main-menu li>a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+    -webkit-transition:all .1s linear;
+    transition:all .1s linear;
+}
+
+.main-menu .nav-icon {
+    position:relative;
+    display:table-cell;
+    width:60px;
+    /* height:36px; */
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+}
+
+.main-menu .nav-text {
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    width:190px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+.no-touch .scrollable.hover {
+    #overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+    overflow-y:auto;
+    overflow:visible;
+}
+
+a:hover,a:focus {
+    text-decoration:none;
+}
+
+nav {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
+nav ul,nav li {
+    outline:0;
+    margin:0;
+    padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+    color:#fff;
+    background-color:#8787db;
+    /* background: url('{% static 'img/T8.JPG' %}') no-repeat fixed; */
+}
+.user {
+        display: flex;
+        margin-right: 40px;
+        margin-left: -185px;
+        color: yellow;
+}
+.logo {
+        display: flex;
+        padding-top: 0px;
+        padding-left: 23px;
+        flex-direction: row;
+    }
+.area{
+    /* background: url('{% static 'img/Proceso_web.jpg' %}') 50% 50% no-repeat fixed; */
+    color: white;
+    height: 800px;
+    margin-top: 0px;
+
+}
+.media{
+    /* background: url('{% static 'img/375409.jpg' %}') no-repeat fixed; */
+
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+.user {
+        display: flex;
+        margin-right: 40px;
+        margin-left: -185px;
+        color: yellow;
+}
+.logo {
+        display: flex;
+        padding-top: 8px;
+        padding-left: 23px;
+        flex-direction: row;
+    }
+.portada{
+        /* background: url("core/static/img/portada.png") 50% 50% no-repeat ; */
+        background-image: url({% static "img/portada.png" %});
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 210vh;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+.has-subnav{
+    border-color: white;
+}
+</style>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- <div class="menu-pedidos" class="                    header-logo"> -->
+    
+    <div class="portada">
+        <!-- <style>.profile-avatar{float:left;width:4rem;height:4rem}.profile-data{padding-left:4.5rem;padding-top:.4rem;}</style> -->
+        <div class="navbar-container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                
+                <div class="container">
+                    <div style="display:flex;align-items: center; justify-content: space-between;">
+                    <div class="user">
+                        <h5>Usuario: {{user}}<h5>
+                    </div>
+                    {% load pages %}
+                    {% get_empresa_datos as empresa  %}
+                    <div class="navbar-brand" >POS HOSPITALITY PLUS</div>
+                    <div>{{empresa.nit}}-{{empresa.nombre}}</div>
+                    </div>    
+                </div>
+            </nav>
+        </div>
+    </div>
+</head>
+<!-- {% block navbar %}{% endblock %} -->
+<body>
+   {% block content %}{% endblock %}
+</body>
+<!-- Contenido -->
+<script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+
+<!-- Bootstrap -->
+<script src="{% static '/vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+<!-- Javascript -->
+<!-- <script src="{% static '/vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script> -->
+<script src="{% static '/js/main.js' %}"></script>
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+
+</script>
+
+</html>

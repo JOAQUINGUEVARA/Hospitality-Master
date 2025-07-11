@@ -1,0 +1,43 @@
+{% extends "core/base_doc.html" %}
+{% load crispy_forms_tags %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<style>
+.container-doc{
+    background-color:rgb(236, 234, 234);
+    width:70%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top:100px;
+}
+main{
+    background:white;
+}
+
+h3{
+    font-weight: bold;
+}
+</style>
+<main role="main">
+    <div class="container-doc">
+        <div class="media d-flex align-items-center">
+        <img src="{% static 'img/logo_empresa.png' %}" heigt="200vh" width="400vw" class="mr-3 img-thumbnail shadow-sm">
+        </div>
+        <div class="row mt-3x">
+            <h3>{{ mensaje1 }}</h3>
+            <h3>{{ mensaje2 }}</h3>
+            <h3>{{ mensaje3 }}</h3>
+        </div>
+        <form action="" method="post" style="font-size: large;">{% csrf_token %}
+            <p></p>
+            <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'direcciona_despacho' id=1 %}" value="salir" >Salir</a>
+        </form>
+    </div>
+</main>
+
+{% endblock %}

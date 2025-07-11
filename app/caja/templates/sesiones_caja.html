@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+{% extends "core/base.html" %}
+{% comment %} {% load material_form %}
+{% form form=form %}{% endform %} {% endcomment %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+
+<title>{% block tittle %}Administrador | CONDOMINIUM{% endblock %}</title>
+
+<style>
+   a {color:white}
+   .main-admin {display: flex;
+    flex-direction: row; 
+
+   }
+   .table{
+    background-color: rgb(234, 242, 250);
+   }
+   th {background-color: rgb(167, 206, 245);}
+  .sidebar{
+    width:50%;
+    background-color: rgb(4, 83, 161);
+    margin-top: 5px;
+    margin-left: 10px;
+  } 
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .sidebar_toggler {
+  position: fixed;
+  top: 4vh;
+  right: 3vw;
+  width: 1.75rem;
+  height: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  overflow: hidden;
+}
+.sidebar_toggler span {
+  background-color: #ddd;
+  width: 100%;
+  height: 2.4px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  /* so that it doesn't overlap the sidebar_toggler */
+}
+/* if the sidebar has 'show' class then their adjacent-sibling (i.e., sidebar_toggler) will... */
+#sidebar.show + .sidebar_toggler {
+  justify-content: center;
+}
+#sidebar.show + .sidebar_toggler span {
+  margin-top: -1.2px;
+  margin-bottom: -1.2px;
+}
+#sidebar.show + .sidebar_toggler span:first-child {
+  transform: rotate(45deg);
+}
+#sidebar.show + .sidebar_toggler span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+#sidebar.show + .sidebar_toggler span:last-child {
+  transform: rotate(-45deg);
+}
+  
+</style>
+</head>
+<body>
+
+</style>
+
+<div class="main-admin">
+  
+      <div class="sidebar"  class="menu-sidebar">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+            <div class="py-2 px-3 mb-20 " style="background-color: white;">
+              <div style="color:rgb(8, 8, 8);">Menu Administrador</div>
+            </div>
+              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                <div class="sidebar_toggler">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                  <br>
+                  <li>
+                      <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                          <i class="bi bi-cloud-fill"></i><span class="ms-1 d-none d-sm-inline">Web</span> </a>
+                          <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                          <li class="w-100">
+                            <li class="divider"></li>
+                              <a href="{% url 'lista_legislacion' %}">Legislación</a>
+                              <li><a href="{% url 'lista_normatividad' %}">Normatividad</a></li>
+                              <li><a href="{% url 'lista_comunicados' %}">Comunicados</a></li>
+                              <li><a href="{% url 'lista_clasificados' %}">Clasificados</a></li>
+                              <li><a href="{% url 'lista_pqr' %}">PQR</a></li>
+                              
+                              <li><a href="{% url 'pagina_accesos' %}">Accesos</a></li>
+                              <li><a href="{% url 'lista_correspondencia' %}">Correspondencia</a></li>
+                              <li><a href="{% url 'pagina_autorizaciones' %}">Autorizaciones</a></li>
+                              <li><a href="{% url 'lista_zonas_comunes' %}">Zonas Comunes</a></li>
+                              
+                              <li><a href="{% url 'lista_miembros_consejo' %}">Consejo</a></li>
+                              <li><a href="{% url 'lista_comite_convivencia' %}">Comite de Convivencia</a></li>
+                              <li><a href="{% url 'lista_miembros_staff' %}">Staff</a></li>
+                              <li><a href="{% url 'lista_vigilantes' %}">Vigilantes</a></li>
+                              
+                              <li><a href="{% url 'lista_reuniones_consejo' %}">Reuniones Consejo</a></li>
+                              <li><a href="{% url 'lista_informes_revisor' %}">Informes Auditor</a></li>
+                              <li><a href="{% url 'lista_procesos_juridicos' %}">Procesos Jurídicos</a></li>
+                          </li>
+                          </ul>
+                  </li>
+                  <li>
+                    <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="bi bi-cone-striped"></i> <span class="ms-1 d-none d-sm-inline">Proyectos</span> </a>
+                      <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                      <li class="w-100">
+                        <li class="divider"></li>
+                            <li><a href="{% url 'lista_proponentes' %}">Proponentes</a></li>
+                            <li><a href="{% url 'lista_proyectos' %}">Proyectos</a></li>
+                            <li><a href="{% url 'lista_proveedores' %}">Proveedores</a></li>
+                            <li><a href="{% url 'lista_contratos' %}">Contratos</a></li>
+                            <li><a href="{% url 'lista_mantenimientos' %}">Mantenimientos</a></li>
+                            <li><a href="{% url 'lista_obras' %}">Obras</a></li>
+                            <li><a href="{% url 'lista_reparaciones' %}">Reparaciones</a></li>
+                          
+                      </li>
+                      </ul>
+                  </li>    
+                  <li>
+                      <a href="{% url 'activos_fijos_lista' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                        <i class="fas fa-couch"></i><span class="ms-1 d-none d-sm-inline">Activos Fijos</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'lista_reuniones_consejo' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="fas fa-users"></i> <span class="ms-1 d-none d-sm-inline">Reuniones Consejo</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'lista_informes_revisor' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="fas fa-user-check"></i> <span class="ms-1 d-none d-sm-inline">Informes Revisor</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'lista_procesos_juridicos' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="material-icons">gavel</i><span class="ms-1 d-none d-sm-inline">Procesos Jurídicos</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'pagina_informacion_residentes' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="material-icons">group</i><span class="ms-1 d-none d-sm-inline">Información Residentes</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'lista_asambleas' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="material-icons">diversity_3</i></i><span class="ms-1 d-none d-sm-inline">Asambleas</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'user_home' 1 %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="material-icons">undo</i><span class="ms-1 d-none d-sm-inline">Regresar</span> </a>
+                  </li>
+                  <li>
+                    <a  href="{% url 'logout' %}" class="nav-link px-0 align-middle" style="color:rgb(188, 245, 174)">
+                      <i class="material-icons">close</i><span class="ms-1 d-none d-sm-inline">Cerrar Sesión</span> </a>
+                  </li>
+                  
+              </ul>
+                          
+          </div>
+          
+      </div>
+      
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+
+
+<div style="display:flex;flex-direction: column;" >
+<div style="margin-left: auto;margin-right: auto;"><h5>PENDIENTES</h5></div>
+<!-- Table Start -->
+<div class="container-fluid pt-4 px-4">
+  <div class="row g-4">
+      <div class="col-sm-12 col-xl-6">
+          <div class="bg-light rounded h-100 p-4">
+            {% load mantenimientos %}
+            {% get_mantenimientos_list as mantenimientos_list %}
+            {% if mantenimientos_list %}
+            <ul class="collapsible">
+                <th><i class="material-icons">construction</i></th>
+                  <th>MANTENIMIENTOS</th>
+                <li>
+                <table class="table table-bordered">
+                  <tr>
+                    <th>No.</th>
+                    <th>Descripción</th>
+                    <th>Vencido Desde</th>
+                    <th>Días sin mantenimiento</th>
+                  </tr>
+                  {% for mantenimiento in mantenimientos_list %}
+                  <tr>
+                      <td>{{ forloop.counter }}-</td>
+                      <td ><li><a style="color:black;" href="{% url 'activos_fijos_detalle' mantenimiento.id %}" class="link">{{mantenimiento.nombre|title}}</a></li></td>
+                      <td ><li><a style="color:black;" href="{% url 'activos_fijos_detalle' mantenimiento.id %}" class="link">{{mantenimiento.fecha_vence_mantenimiento|timesince}}</a></li></td>
+                      <td ><li><a style="color:black;" href="{% url 'activos_fijos_detalle' mantenimiento.id %}" class="link">{{mantenimiento.dias_sin_mantenimiento}}</a></li></td>
+                  </tr>
+                  {% endfor %}
+                </table>
+                </li>
+            </ul>
+            {% else %}
+            <ul class="collapsible">
+              <li>
+                <div style="background: radial-gradient(#cbf1e4, #58d5c9);" class="collapsible-header"><i class="material-icons">second</i>No Hay Mantenimientos Pendientes</div>
+              </li>
+            </ul>
+            {% endif %}
+          </div>
+      </div>
+      <div class="col-sm-12 col-xl-6">
+          <div class="bg-light rounded h-100 p-4">
+            
+              {% load pqr %}
+              {% get_pqr_list as pqr_list %}
+              {% if pqr_list %}
+              <ul class="collapsible">
+                <th><i class="material-icons">mood_bad</i></th>
+                <th>PQR</th>
+                <li>
+                  <table class="table table-bordered">
+                  
+                  <tr>
+                    <th>No.</th>
+                    <th>Descripción</th>
+                    <th>Enviada Hace</th>
+                  </tr>
+                  {% for pqr in pqr_list %}
+                  <tr>
+                      <td>{{ forloop.counter }}-</td>
+                      <td ><li><a style="color:black;" href="{% url 'pqr_detalle' pqr.id %}" class="link">{{pqr.title|title}}</a></li></td>
+                      <td ><li><a style="color:black;" href="{% url 'pqr_detalle' pqr.id %}" class="link">{{pqr.created|timesince}}</a></li></td>
+                  </tr>
+                  {% endfor %}
+                  </table>
+                </li>
+              </ul>
+              {% else %}
+              <ul class="collapsible">
+                <li>
+                  <div style="background: radial-gradient(#cbf1e4, #58d5c9);" class="collapsible-header"><i class="material-icons">second</i>No Hay PQR pendientes</div>
+                </li>
+              </ul>
+              {% endif %}
+          </div>
+      </div>
+      <div class="col-sm-12 col-xl-6">
+          <div class="bg-light rounded h-100 p-4">
+            {% load obras %}
+            {% get_obras_list as obras_list %}
+            {% if obras_list %}
+            <ul class="collapsible">
+                <th><i class="material-icons">engineering</i></th>
+                  <th>OBRAS</th>
+                <li>
+                <table class="table table-bordered">
+                <tr>
+                  <th>No.</th>
+                  <th>Descripción</th>
+                  <th>Fecha</th>
+                  <th>Saldo</th>
+                </tr>
+                {% for obra in obras_list %}
+                <tr>
+                    <td>{{ forloop.counter }}-</td>
+                    <td ><li><a style="color:black;" href="{% url 'obra_detalle' obra.id %}" class="link">{{obra.descripcion|title}}</a></li></td>
+                    <td ><li><a style="color:black;" href="{% url 'obra_detalle' obra.id %}" class="link">{{obra.fecha|timesince}}</a></li></td>
+                    <td ><li><a style="color:black;" href="{% url 'obra_detalle' obra.id %}" class="link">{{obra.saldo_pagar|intcomma}}</a></li></td>
+                </tr>
+                {% endfor %}
+                </table>
+              </li>
+            </ul>
+            {% else %}
+            <ul class="collapsible">
+              <li>
+                <div style="background: radial-gradient(#cbf1e4, #58d5c9);" class="collapsible-header"><i class="material-icons">second</i>No Hay Obras Pendientes</div>
+              </li>
+            </ul>
+            {% endif %}
+          </div>
+      </div>
+      <div class="col-sm-12 col-xl-6">
+          <div class="bg-light rounded h-100 p-4">
+            {% load reparaciones %}
+            {% get_reparaciones_list as reparaciones_list %}
+            {% if reparaciones_list %}
+            <ul class="collapsible">
+                <th><i class="material-icons">handyman</i></th>
+                  <th>REPARACIONES</th>
+                <li>
+                <table class="table table-bordered">
+                <tr>
+                  <th>No.</th>
+                  <th>Descripción</th>
+                  <th>Fecha</th>
+                </tr>
+                {% for reparacion in reparaciones_list %}
+                <tr>
+                    <td>{{ forloop.counter }}-</td>
+                    <td ><li><a style="color:black" href="{% url 'reparaciones_detalle' reparacion.id %}" class="link">{{reparacion.descripcion|title}}</a></li></td>
+                    <td ><li><a style="color:black" href="{% url 'reparaciones_detalle' reparacion.id %}" class="link">{{reparacion.fecha|timesince}}</a></li></td>
+                </tr>
+                {% endfor %}
+                </table>
+              </li>
+            </ul>
+            {% else %}
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">second</i>No Hay Reparaciones Pendientes</div>
+              </li>
+            </ul>
+            {% endif %}
+          </div>    
+      </div>
+      <div class="col-sm-12 col-xl-6">
+          <div class="bg-light rounded h-100 p-4">
+            {% load contratos %}
+            {% get_contratos_list as contratos_list %}
+            {% if contratos_list %}
+            <ul class="collapsible">
+                <th><i class="material-icons">contacts</i></th>
+                  <th>CONTRATOS</th>
+                <li>
+                <table class="table table-bordered">
+                <!-- <tr style="background-color:rgb(169, 206, 248)">
+                  <th><i class="material-icons">contacts</i></th>
+                  <th>CONTRATOS</th>
+                  <th></th>
+                  <th></th>
+                </tr> -->
+                <tr>
+                  <th>No.</th>
+                  <th>Descripción</th>
+                  <th>Vence Desde</th>
+                  <th>(+)Vencido/(-) Por vencer</th>
+                </tr>
+                {% for contrato in contratos_list %}
+                <tr>
+                    <td>{{ forloop.counter }}-</td>
+                    <td ><li><a style="color:black;" href="{% url 'contratos_detalle' contrato.id %}" class="link">{{contrato.proveedor|title}}</a></li></td>
+                    <td ><li><a style="color:black" href="{% url 'contratos_detalle' contrato.id %}" class="link">{{contrato.fecha_vence|timesince}}</a></li></td>
+                    <td ><li><a style="color:black" href="{% url 'contratos_detalle' contrato.id %}" class="link">{{contrato.dias_vence}}</a></li></td>
+                </tr>
+                {% endfor %}
+                </table>
+              </li>
+            </ul>
+            {% else %}
+            <ul class="collapsible">
+              <li>
+                <div style="background: radial-gradient(#cbf1e4, #58d5c9);" class="collapsible-header"><i class="material-icons">second</i>No Hay Contratos Pendientes</div>
+              </li>
+            </ul>
+            {% endif %}
+          </div>
+      </div>
+      <div class="col-sm-12 col-xl-6">
+          <div class="bg-light rounded h-100 p-4">
+            {% load compromisos %}
+            {% get_compromisos_list as compromisos_list %}
+            {% if compromisos_list %}
+            <ul class="collapsible">
+                <th><i class="material-icons">compare_arrows</i></th>
+                  <th>COMPROMISOS REUNIONES CONSEJO</th>
+                <li>
+                <table class="table table-bordered">
+                <tr>
+                  <th>No.</th>
+                  <th>Descripción</th>
+                  <th>Desde</th>
+                </tr>
+                {% for compromiso in compromisos_list %}
+                <tr>
+                    <td>{{ forloop.counter }}-</td>
+                    <td ><li><a style="color:black;" href="{% url 'compromiso_detalle' compromiso.id %}" class="link">{{compromiso.compromiso|title}}</a></li></td>
+                    <td ><li><a style="color:black;" href="{% url 'compromiso_detalle' compromiso.id %}" class="link">{{compromiso.reunion_consejo.fecha|timesince}}</a></li></td>
+                </tr>
+                {% endfor %}
+                </table>
+              </li>
+            </ul>
+            {% else %}
+            <ul class="collapsible">
+              <li>
+                <div style="background: radial-gradient(#cbf1e4, #58d5c9);" class="collapsible-header"><i class="material-icons">second</i>No Hay Compromisos Pendientes</div>
+              </li>
+            </ul>
+            {% endif %}
+          </div>    
+      </div>        
+  </div>
+  </div>
+</div>
+<!-- Table End -->
+
+{% block javascript %}
+
+<script>
+  
+  $(".dropdown-trigger").dropdown()
+  
+
+</script>
+
+{% endblock javascript%}
+{% endblock %}
+

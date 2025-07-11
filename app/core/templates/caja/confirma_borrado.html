@@ -1,0 +1,52 @@
+{% extends "core/base_doc.html" %}
+{% load crispy_forms_tags %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<style>
+.container-doc{
+    background-color:rgb(236, 234, 234);
+    width:80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top:100px;
+}
+main{
+    background:white;
+}
+
+h3{
+    font-weight: bold;
+}
+</style>
+<main role="main">
+    <div class="container-doc">
+        <div class="media d-flex align-items-center">
+            <img src="{% static 'img/logo_empresa.png' %}" heigt="200vh" width="400vw" class="mr-3 img-thumbnail shadow-sm">
+        </div>
+        <div class="row mt-3x" style="display: flex;flex-direction: column;justify-content: center;">
+            <div class="titulo">
+                <h2>CONFIRMACION BORRADO REGISTRO</h2>
+                <div style="display: flex;transform: translate(18vh);">
+                    <h2>Desea borrar? {{ feed }}?</h2>
+                </div>    
+                <div style="display: flex;transform: translate(19vh);"><p>
+                    El item será borrado!
+                </p></div>
+            </div>
+            <form class="wide" action="" method="post">
+                {% csrf_token %}
+                <div style="display: flex;transform: translate(24vh);">
+                <p class="submit"><input class="cta" type="submit" value="Sí, Bórrelo"></p>
+                <a href="{{ view.get_success_url }}" class="btn btn-light">Salir</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

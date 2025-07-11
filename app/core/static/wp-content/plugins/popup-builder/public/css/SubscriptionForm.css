@@ -1,0 +1,107 @@
+.sgpb-form-wrapper input,
+.sgpb-form-wrapper textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Arial;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+.sgpb-form-wrapper input[type="submit"],
+.sgpb-form-wrapper input[type="button"] {
+	cursor: pointer;
+}
+
+.sgpb-form-wrapper input[type="submit"]:hover {
+	filter: brightness(90%);
+	-ms-filter: brightness(90%);
+}
+
+.sgpb-form-wrapper {
+	text-align: center;
+}
+
+.sgpb-subscription-form label.error {
+	text-align: inherit;
+	color: red;
+	display: block;
+	margin: 5px 0;
+}
+
+.sgpb-form-wrapper input[type="text"],
+.sgpb-form-wrapper input[type="email"] {
+	border: 2px solid;
+}
+
+.sgpb-inputs-wrapper.form-group {
+	margin: 0;
+	padding: 0;
+}
+
+.sgpb-subscription-form #sgpb-form {
+	margin: 0;
+}
+
+/*Subscription form messages*/
+.sgpb-alert {
+	padding: 15px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.sgpb-alert-info {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+.sgpb-alert-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.sgpb-alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.sgpb-alert p {
+	margin-bottom: 0px;
+}
+
+#sgpb-gdpr-field-label {
+	margin: 4px 0 0 0;
+	max-width: 5% !important;
+	font-weight: bold;
+}
+
+.sgpb-gdpr-label-wrapper {
+	margin: 0 auto !important;
+	text-align: left !important;
+}
+
+#sgpb-gdpr-field-label + label {
+	margin: 4px 0 0 5px;
+	width: 80% !important;
+	text-align: left !important;
+}
+
+.sgpb-gdpr-info {
+	margin-bottom: 0;
+	margin-top: 5px;
+	text-align: left;
+	border: none;
+	background: transparent;
+	padding: 0;
+	display: inline-block;
+	overflow-wrap: break-word;
+	line-height: 1.4em;
+	font-size: 13px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}

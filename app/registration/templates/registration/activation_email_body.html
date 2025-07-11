@@ -1,0 +1,10 @@
+% load i18n %}
+{% trans "Thank you for register you new StoryDevil account." %}
+{% trans "To fully enable your account, click the link below" %}
+
+http://127.0.0.1:8000/accounts/password_reset/{{ activation_key }}
+
+{% blocktrans %}This link will expire in {{ expiration_days }} days.{% endblocktrans %}
+
+***
+{% trans "If you have not registered this account, please delete this email and we will stop bothering you" %}.

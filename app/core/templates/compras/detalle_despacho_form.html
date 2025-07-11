@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+{% load crispy_forms_tags %}
+{% load static %}
+
+
+
+{% load bootstrap4 %}       {# import bootstrap4/bootstrap3 #}
+{% bootstrap_css %}         {# Embed Bootstrap CSS #}
+{% bootstrap_javascript jquery='full' %}  {# Embed Bootstrap JS+jQuery #}
+
+<!DOCTYPE html>
+<html lang='es'>
+
+{% load static %}
+
+<style>
+    body{
+       background-color: aquamarine;
+    }
+    label{color: black;
+        font-size: medium;
+        font-weight: 500;
+    }
+</style>
+
+{% block extra_js %}
+<script type="text/javascript">
+   
+   
+</script>
+
+{% endblock %}
+
+
+    <form role="form" method="post" action ="" >
+        {% csrf_token %}
+        <div class="form-row" style="display: flex;flex-direction: row;">
+            <div>
+                {{ form.cantidad_enviada|as_crispy_field }}
+            </div>
+        </div>
+        <div class="form-group">
+        <div class="buttons">
+            <button id="btnGuardaCantidad" type="submit" class="btn btn-primary">Guardar</button>
+            <a id="btnSalir" type="button" class="btn btn-primary" href="{% url 'direcciona_despacho' id=1 %}" value="salir" >Salir</a>
+        </div>
+        </div>            
+    </form>
+
+

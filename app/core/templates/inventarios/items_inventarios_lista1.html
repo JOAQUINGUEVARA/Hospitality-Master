@@ -1,0 +1,119 @@
+{% load render_table from django_tables2 %}
+{% load django_tables2 %}
+{% load bootstrap4 %}       {# import bootstrap4/bootstrap3 #}
+{% bootstrap_css %}         {# Embed Bootstrap CSS #}
+{% bootstrap_javascript jquery='full' %}  {# Embed Bootstrap JS+jQuery #}
+{% load static %}
+{% block content %}
+{{ form.media }}
+<!doctype html>
+<style>
+    .table{
+        background-color: rgb(255, 254, 254);
+    }
+    table, th, td {
+        border: 1px solid rgb(193, 175, 243);
+    }
+    
+    .sidebar{
+    width:15%;
+    background-color: rgb(4, 83, 161);
+    margin-top: 5px;
+    margin-left: 10px;
+    }
+    
+   .main-box{display: flex;
+    flex-direction: row; 
+
+   }
+   .container-filter{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        padding-top: 20px;
+        margin-left:2vw;
+        margin-right: 2vw ;
+        margin:auto;
+        width:80%;
+        background-color: aliceblue;
+    }     
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    
+    div.content {margin-left: 0;}
+    
+    .main-box{
+        display: flex;
+        flex-direction: column; 
+    }
+    .navbar-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center; 
+    }
+    }
+    @media screen and (max-width: 400px) {
+    .sidebar a {
+      width: 100%;
+      text-align: center;
+      float: none;
+    }
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	
+  .container-filter{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        padding-top: 20px;
+        margin-left:2vw;
+        margin-right: 2vw ;
+        margin:auto;
+        width:80%;
+        background-color: aliceblue;
+    }       
+  
+    }
+</style>
+
+<head> 
+   
+</head>
+
+<div class="main-box">
+         
+    <div style="padding-top: 1px;margin-left:2vw;margin-right: 2vw ;margin:auto;width:80%;margin-top:70px" class="container">
+        <div style="display: flex;justify-content:center;background-color: #056636;align-items: center;height: 5vh;">
+            <p style="font-size: calc(5px + 1vw);margin-left: auto;margin-right:auto;color:rgb(253, 252, 252);"><span>ITEMS</span></p>
+        </div>
+        <form method="GET">
+            {% bootstrap_form filter.form %}
+            <button type="submit" class="filter-button" id="btn-busqueda">Búsqueda</button>
+        </form>
+        <hr width=50% style="color:black;size:20">
+        <table class="table table-bordered">
+            {% render_table items %}
+        </table>
+    </div>
+</div>
+    
+
+
+{% block javascript %}
+<script>
+   
+    
+   
+    
+</script>
+{% endblock %}
+{% endblock %}
+
+

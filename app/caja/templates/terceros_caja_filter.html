@@ -1,0 +1,80 @@
+{% extends "core/base_doc.html" %}
+{% load render_table from django_tables2 %}
+{% load django_tables2 %}
+{% load bootstrap4 %}       {# import bootstrap4/bootstrap3 #}
+{% bootstrap_css %}         {# Embed Bootstrap CSS #}
+{% bootstrap_javascript jquery='full' %}  {# Embed Bootstrap JS+jQuery #}
+{% load static %}
+{% block content %}
+{{ form.media }}
+
+{% if filter %}
+<div class="container" style="margin-left:auto;margin-right: auto;">
+    <div class="card-content white-text">
+        <label style="font-size: calc(12px + 1vw)">Descripción:</label>
+        <form action="" method="get" class="form form-inline">
+            {% bootstrap_form filter.form layout='inline' %}
+            {% bootstrap_button 'Filtrar' %}
+            <a type="button" style="transform: translate(1px);" class="btn btn-warning" href="{% url 'direcciona_caja' %}">salir</a>
+        </form>
+    </div>
+</div>    
+{% endif %}
+<div class="container" style="margin-left:auto;margin-right: auto;">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="header-titulo">
+                <div class="titulo-injerto">
+                    <center>
+                        <h3 style="color: blue;align-text: center;">ITEMS</h3>
+                    </center>
+                </div>
+            </div>
+            <div class="card-body" id="product_container">
+                {% render_table table 'django_tables2/bootstrap.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block javascript %}
+<script>
+
+var a = 0
+function suma_item(id) {
+    a = a + 1;
+    /* var currentRow=$(this).closest("tr"); */
+    /* var id = currentRow.find("#id").text(); */
+    currentRow = id
+    var cantidad = currentRow.find("#cantidad").text();
+    alert(id)
+    alert(cantidad)
+    if (typeof(cantidad) == "string")
+    {
+        cantidad = 0
+    }
+    vcantidad = parseInt(cantidad)+1
+    alert(vcantidad)
+    document.getElementById('cantidad').innerHTML = vcantidad ;
+}
+
+$(document).on("click","#BtnSelItem", function(e) {
+    e.stopImmediatePropagation();
+    var currentRow=$(this).closest("tr");
+    var id = currentRow.find("#id").text();
+    /* var cantidad = currentRow.find("#cantidad").value; */
+    cantidad = parseFloat(currentRow.find('#cantidad').val())
+    $.ajax({
+    url: "{% url 'item_pedido_caja' %}",
+    data:{'id':id,'cantidad':cantidad},
+    method: "GET",
+    dataType: 'json',
+    
+    });
+    });
+
+</script>
+
+{% endblock %}
+{% endblock %} 
+
